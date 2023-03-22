@@ -101,6 +101,11 @@ span {
     color: #212529;
 }
 
+.container {
+    position: relative;
+    width: 50%;
+}
+
 
 
 
