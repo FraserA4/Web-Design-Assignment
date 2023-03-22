@@ -1,15 +1,5 @@
 @import url(https://rsms.me/inter/inter.css);
 
-html {
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 300;
-        font-display: swap;
-        src: url("font-files/Inter-Light.woff2?v=3.19") format("woff2");
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
 
 /*HOMEPAGE BACKGROUND COLOUR ELEMENT */
 .Homepage {
@@ -27,3 +17,44 @@ nav {
     border-radius: 10px;
     font-size: 0;
 }
+
+html {
+    @font-face {
+        font-family: 'Inter-Light';
+        font-style:  normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url("font-files/Inter-Light.woff2?v=3.19") format("woff2");
+      }
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Inter-Light';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+  }
+  
+
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
