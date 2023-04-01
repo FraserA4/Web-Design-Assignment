@@ -5,105 +5,77 @@
     background-color: #CF9FFF;
 }
 
-  
-
-/* HOMEPAGE NAV BAR */
-
-nav {
-    margin: 50px auto 0; 
-    position:relative;
-    width: 1210px;
-    height: 40px;
-    border-radius: 25px;
-    font-size: 40;
-    display:contents;
-    z-index: 10;
+.navbar {
+    width:100%;
+    margin-left: auto ;
+    margin-right: auto ;
 }
 
-nav a {
-    line-height: 100%;
+.navbar ul {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin: 20px auto;
+    padding: 0px;
+    display:table;
+    overflow: hidden;
+}
+  
+
+
+li a {
     font-size: 15px;
-    display: inline-block;
-    position: absolute;
-    z-index: 1;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: (42, 18, 18);
-    box-shadow: 0px, 2px, 8px, 2px #c0c0c0;
-    border-radius: 5px;
-    transition: all .2 ease-in-out;
-    padding: 0;
+
 }
+
+.guts {
+    margin: 20px;    
+
+}
+
+.content {
+    display:inline;
+    float:left;
+    width: 45%;
+    margin-right: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
  
-nav a:hover {
-transform: scale(1.02);
-box-shadow: 0px 2px 10px 4px #c0c0c0;
-}
-
-nav .animation {
-    position: absolute;
-    height: 100%;
-    top: 0;
-    z-index: 0;
-    transition: all .5s ease 0;
-    border-radius: 8px;
-}
-
-a:nth-child(1) {
-    width: 100px;
-}
-
-a:nth-child(2) {
-    width: 110px;
-}
-
-a:nth-child(3) {
-    width: 250px;
-}
-
-a:nth-child(4) {
-    width: 100px;
-}
 
 
-nav .start-Fraser-Allen, a:nth-child(1) {
+
+
+
+li {
     border-radius: 5px;
-    padding: 0px;
-    width: 230px;
-    left: 10px;
+    padding: 10px;
+    margin-left:10px;
     background-color: #F7A4A4;
     font-family: Arial, Helvetica, sans-serif;
+    display:inline;
+    float: left;
+    width: 200px;
 }
 
-nav .start-Employment-History a:nth-child(2) {
-    border-radius: 5px;
-    padding: 0px;
-    width: 230px;
-    left: 300px;
-    background-color: #D3E4CD;
-    font-family: Arial, Helvetica, sans-serif;
+section {
+    margin-left:20px;
 }
 
-nav .start-Previous-Work a:nth-child(3) {
-    border-radius: 5px;
-    padding: 0px;
-    width: 230px;
-    left: 700px;
-    background-color: #B6E2A1;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* .right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  } */
 
-nav .start-About-Me a:nth-child(4) {
-    float: right;
-    margin: 0 auto;
-    border-radius: 5px;
-    padding: 0px;
-    width: 230px;
-    left: 1050px;
-    background-color: #B6E2A1;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 span {
     color: #212529;
@@ -111,7 +83,7 @@ span {
 
 .container {
     position: relative;
-    width: 50%;
+    text-align: center;
 }
 
 
