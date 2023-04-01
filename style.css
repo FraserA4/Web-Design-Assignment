@@ -1,6 +1,4 @@
 
-
-/*HOMEPAGE BACKGROUND COLOUR ELEMENT */
 .Homepage {
     background-color: #CF9FFF;
 }
@@ -30,7 +28,7 @@ li a {
 
 }
 
-.guts {
+.header {
     margin: 20px;    
 
 }
