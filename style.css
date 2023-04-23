@@ -78,7 +78,9 @@ span {
     text-align: center;
 }
 
-
+.clicked {
+    color: red;
+}
 
 
 
